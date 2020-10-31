@@ -5,4 +5,9 @@ const GameType = {
 
 const MAX_MISTAKE_COUNT = 3;
 
-export {GameType, MAX_MISTAKE_COUNT};
+const AuthorizationStatus = {
+  AUTH: `AUTH`,
+  NO_AUTH: `NO_AUTH`,
+};
+
+export {GameType, MAX_MISTAKE_COUNT, AuthorizationStatus};
