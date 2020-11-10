@@ -10,4 +10,17 @@ const AuthorizationStatus = {
   NO_AUTH: `NO_AUTH`,
 };
 
-export {GameType, MAX_MISTAKE_COUNT, AuthorizationStatus};
+const AppRoute = {
+  LOGIN: `/login`,
+  LOSE: `/lose`,
+  RESULT: `/result`,
+  ROOT: `/`,
+  GAME: `/game`,
+};
+
+const APIRoute = {
+  QUESTIONS: `/questions`,
+  LOGIN: `/login`,
+};
+
+export {GameType, MAX_MISTAKE_COUNT, AuthorizationStatus, AppRoute, APIRoute};
